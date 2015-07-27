@@ -1,0 +1,47 @@
+* {
+  font-family: Georgia, serif;
+  line-height: 1.5rem;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  color: #ddad27;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 920px;
+}
+
+.bottle,
+.description {
+  float: left;
+  width: 50%;
+}
+
+.bottle img {
+  width: 100%;
+}
+
+.bottle-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 712px) {
+    .bottle img {
+      display: none;
+    }
+    .bottle-mobile {
+      display: block;
+      text-align: center;
+    }
+    .bottle,
+    .description {
+      width: 100%;
+    }
+  }

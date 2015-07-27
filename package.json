@@ -1,0 +1,25 @@
+{
+  "name": "fernandoincetta",
+  "version": "1.0.0",
+  "description": "Character Animator",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leincetta/fernandoincetta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leincetta/fernandoincetta/issues"
+  },
+  "homepage": "https://github.com/leincetta/fernandoincetta#readme"
+}
